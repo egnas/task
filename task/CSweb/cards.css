@@ -1,0 +1,52 @@
+.mainCard
+{
+  width: 90%;
+  height: 100px;
+  margin-left: 10px;
+  background-color: #4B5964;
+  color: white;
+  margin: 0 auto;
+  position: relative;
+  border: 1px solid white;
+  margin-bottom: 25px;
+}
+
+.cardLink
+{
+  color: black;
+  height: 50%;
+  top: 0;
+  right: 0;
+  margin-top: 16px;
+  position: absolute;
+}
+
+.cardButton
+{
+  background-color: yellow;
+  padding: 16px;
+  width: 100px;
+  text-decoration: none;
+  font-weight: bold;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.cardCode
+{
+  right: 0;
+  bottom: 0;
+  margin-bottom: 16px;
+  position: absolute;
+}
+
+.cardRef
+{
+  color: black;
+  background-color: yellow;
+  padding: 17px;
+  width: 100px;
+  font-weight: bold;
+  padding-left: 50px;
+  padding-right: 50px;
+}

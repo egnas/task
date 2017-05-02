@@ -1,0 +1,185 @@
+body, html
+{
+  margin: 0 auto;
+  height: 100%;
+  font-family: 'Palanquin Dark', sans-serif;
+}
+
+.mainDiv
+{
+  background-color: #F2F2F2;
+  width: 100%;
+  min-height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.mainContent
+{
+  width: 95%;
+  color: #F2F2F2;
+  background-color: #272429;
+  margin: 0 auto;
+  border-radius: 15px;
+  height: 60%;
+}
+
+.innerMain
+{
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.bar
+{
+  background-color: white;
+  width: 60%;
+  border-radius: 15px;
+}
+
+#demo
+{
+  margin-left: 10px;
+}
+
+.innerBar
+{
+  background-color: red;
+  border-radius: 15px;
+}
+
+.innerNav
+{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.innerButton
+{
+  font-size: 1.5em;
+  color: #F2F2F2;
+  text-decoration: none;
+  padding: 10px;
+  border: none;
+  background-color: #272429;
+  cursor: pointer;
+}
+
+.innerButton:focus
+{
+  outline:0;
+  color: red;
+}
+
+.userButton:focus
+{
+  outline:0;
+  color: red;
+}
+
+#navBorders
+{
+  border-left: 1px solid #F2F2F2;
+  border-right: 1px solid #F2F2F2;
+}
+
+.tasks
+{
+  background-color: #F2F2F2;
+  height: 100%;
+  margin-top: 25px;
+}
+
+.item
+{
+  height: 50px;
+  color: #F2F2F2;
+  background-color: #272429;
+  margin: 0 auto;
+  width: 95%;
+  display: table;
+  border-radius: 15px;
+  margin-bottom: 25px;
+}
+
+footer
+{
+  position: absolute;
+  bottom: 0;
+  height: 15px;
+  background-color: #272429;
+  width: 100%;
+  color: #F2F2F2;
+}
+
+#subItems
+{
+  margin-left: 15px;
+  line-height: 60px;
+}
+
+nav
+{
+  background-color: #272429;
+}
+
+.usersContent
+{
+  display: none;
+  margin-bottom: 25px;
+  margin-top: 30px;
+  display: block;
+  overflow-y: hidden;
+  height: 200px;
+  background-color: black;
+}
+
+.userButton
+{
+  border: none;
+  font-weight: bold;
+  background-color: black;
+  color: #F2F2F2;
+  border-left: 1px solid #F2F2F2;
+  cursor: pointer;
+}
+
+#expandable
+{
+  display: none;
+  margin-bottom: 25px;
+  animation-name: slider;
+  animation-duration: 1s;
+  display: block;
+  margin-top: 30px;
+  overflow-y: hidden;
+  height: 200px;
+  background-color: black;
+
+}
+
+#users, #user, #userInfo
+{
+  width: 90%;
+  margin-left: 15px;
+}
+
+.check
+{
+  margin-top: 30px;
+  display: block;
+  overflow-y: hidden;
+  height: 200px;
+  background-color: black;
+}
+
+
+@keyframes slider {
+    from {height: 0;}
+    to {height: 200px;}
+}
+
+@keyframes sliderOut {
+    from {height: 200px;}
+    to {height: 50;}
+}
